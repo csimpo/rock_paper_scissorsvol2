@@ -3,32 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors game</title>
+    <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="style.css">
     <script src="game.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Rock Paper Sciossors</h1>
+            <h1>Rock Paper Scissors</h1>
             <div class="scoreboard">
-                <div class="playerscore"><h2>Player score:0</h2></div>
-                <div class="computerscore"><h2>Computer score:0</h2></div>
+                <div class="playerscore"><h2>Player score: 0</h2></div>
+                <div class="computerscore"><h2>Computer score: 0</h2></div>
             </div>
             <div class="round"><h3>Round winner:</h3></div>
         </div>
         <div class="buttons"> 
-            <div class="rock-button">
-                <button id="rockbtn"><img src="./imgs/rock.png" alt=""></button>
-            </div>
-            <div class="paper-button">
-                <button id="paperbtn"> <img src="./imgs/paper.png" alt=""></button>
-            </div>
-            <div class="scissors-button">
-                <button id="scissorsbtn"><img src="./imgs/scissors.png" alt=""></button>
-            </div>
+            <button id="rockbtn"><img src="./imgs/rock.png" alt="Rock"></button>
+            <button id="paperbtn"><img src="./imgs/paper.png" alt="Paper"></button>
+            <button id="scissorsbtn"><img src="./imgs/scissors.png" alt="Scissors"></button>
+            <button id="resetbtn" style="display:none;">Reset Game</button>
         </div>
     </div>
-    
 </body>
 </html>
