@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#header{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
