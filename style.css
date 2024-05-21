@@ -1,14 +1,32 @@
-#container{
+body{
+    display: block;
+    margin: 0;
+
+}
+.container{
+    display: fl;
+}
+.scoreboard{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.buttons{
     height: 100vh;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-#header{
+}
+button{
+    border-radius: 10px;
+    background-color:white;
+    
+}
+.header{
     text-align: center;
 }
-
-.text{
-    text-align: center;
+img{
+    height: 50px;
 }
+
